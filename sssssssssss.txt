@@ -1,0 +1,62 @@
+OpenMathNotes
+├───Backend
+│   ├───dev
+│   │   │   trainyolo.ipynb
+│   │   │
+│   │   └───data
+│   │       │   bounding_boxes.txt
+│   │       │   convertyolo.py
+│   │       │   datasets.zip
+│   │       │   geometry.py
+│   │       │   main.py
+│   │       │   merge.py
+│   │       │   postprocessing.ipynb
+│   │       │   split.py
+│   │       │   text.py
+│   │       │   viewer.py
+│   │       │
+│   │       └───augmentation
+│   │             binary.py
+│   │             contour.py
+│   │             create_background.py
+│   │             dilate.py
+│   │             generatehandwritten.py
+│   │           
+│   │
+│   ├───express-app
+│   │       dockerfile
+│   │       package.json
+│   │       server.js
+│   │       yolo.onnx
+│   │
+│   └───python-app
+│           server.py
+│
+└───Frontend
+    └───src
+        ├───components
+        │   └───custom
+        │           ConfirmationDialog.tsx
+        │           CustomSidebar.tsx
+        │           Footer.tsx
+        │           SketchCanvas.tsx
+        │           StylingPallete.tsx
+        │           TextInput.tsx
+        │           Toolbar.tsx
+        │
+        ├───hooks
+        │       selectionBox.ts
+        │       use-mobile.tsx
+        │       use-toast.ts
+        │       useCanvas.ts
+        │       useKeyboardShortcuts.ts
+        │
+        ├───lib
+        │       utils.ts
+        │
+        ├───pages
+        │       Home.tsx
+        │       HomePage.tsx
+        │
+        └───store
+                strokesStore.ts
